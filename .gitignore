@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints
+
+# MacOS
+.DS_Store
+
+# Virtual environment
+/.mypy_cache/
+/.pytest_cache/
+
+# Data and outputs (do not commit large raw or processed data)
+/data/processed/
+/data/*.csv
+/data/*.csv.gz
+/data/aggregated*.gz
+/models/
+/notebooks/*.png
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment files
+.env
+pip-log.txt
+python-temp/
